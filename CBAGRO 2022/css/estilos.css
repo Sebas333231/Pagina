@@ -1,0 +1,1148 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:ital,wght@1,300&family=Kumbh+Sans&family=Libre+Franklin&family=Open+Sans&family=Poppins:wght@400;500;600&family=Raleway:ital,wght@0,400;1,300&family=Red+Hat+Display:wght@500&family=Roboto+Condensed:wght@300&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    margin: 0;
+    max-width: 100%;
+    align-items: center;
+}
+header{
+    max-width: 100%;
+    display: flex;
+    height: 90px;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.logo h2{
+    font-size: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 70px;
+    margin-right: 10px;
+}
+#img1{
+    height: 100px;
+    width: 150px;
+}
+.logo h1{
+    font-size: 3.5rem;
+    font-weight:bolder;
+
+}
+.logo .color-acento{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ABD774;
+}
+nav{
+    max-width: 100%;
+    background-color: #ABD774;
+    text-align: center;
+    display: flex;
+    margin: 10px;	
+    padding:20px;
+    justify-content: space-between;
+    border-radius: .5em;
+    }
+nav a{
+    background-color: #ABD774;
+    margin: 5px;
+    text-decoration:none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 100%;
+}
+.container-fluid{
+    background-color: #ABD774;
+    max-width: 100%;
+}
+
+.titulo h1{
+    padding-top: 70px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+  .nav-item a{
+    text-decoration:none;
+    color:#000000;
+    }
+    .nav-item:hover{
+    border: 2px;
+    border-radius:.5em;
+    background-color: #b3ff95;
+    
+    }
+    
+    .nav-item:hover a{
+    color:black;
+    
+    }
+    #target{
+        margin: auto;
+        align-items: center;
+        padding: 15px;
+    }
+    #target p{
+        font-size: 15px;
+    }
+    #target h2{
+        font-size: 2rem;
+    }
+    #targeta{
+        margin: auto;
+        padding: 15px;
+    }
+    #targeta p{
+        font-size: 15px;
+    }
+    #targetaa{
+        margin: auto;
+        padding: 15px;
+    }
+    #targetaa p{
+        font-size: 15px;
+    }
+    #targetaa1{
+        margin: auto;
+        padding: 15px;
+    }
+    #targetaa1 p{
+        font-size: 15px;
+    }
+    #targetaa2{
+        margin: auto;
+        padding: 15px;
+    }
+    #targetaa2 p{
+        font-size: 15px;
+    }
+    #targetaa3{
+        margin: auto;
+        padding: 15px;
+    }
+    #targetaa3 p{
+        font-size: 15px;
+    }
+    /**Objetivos**/
+    
+    .title h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        font-weight: bold;
+
+    }
+    .arg p{
+        margin-top: 30px;
+    }
+
+    .mapouter{
+        display: block;
+        margin: auto;
+        max-width: 100%;
+    }
+    .mapa{
+        background-color: #b3ff95;
+        width: 610px;
+        height: 408px;
+        display: block;
+            margin: auto;
+    }
+        .gmap_canvas {
+            overflow:hidden;
+            background:none!important;
+            max-width: 100%;
+            display: block;
+            margin: auto;
+        }
+    .gmap_iframe {
+        display: block;
+        margin: auto;
+        width:600px!important;
+        height:400px!important;
+    }
+    .contenido img{
+        display: block;
+        max-width: 80%;
+        margin: auto;
+    }
+    .title h2{
+        margin-top: 70px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+    }
+    .video-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #adbd9a;
+    }
+    .video-container h2{
+        text-align: center;
+    }
+    .video-container h3{
+        text-align: center;
+    }
+    .video-container h4{
+        text-align: center;
+    }
+    .video-container .video{
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 2rem;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .5);
+        overflow: hidden;
+        border: 0;
+    }
+    .mas h3{
+        padding: 25px;
+        text-align: center;
+    }
+    .ovejas h1{
+        font-size: 26px;
+    }
+    .ovejas h2{
+        font-size: 26px;
+    }
+    .ovejas h3{
+        font-size: 26px;
+    }
+    .ovejas img{
+        border-radius: 1rem;
+        max-width: 40%;
+        margin: auto;
+        display: block;
+    }
+    main p{
+        font-family: 'Poppins', sans-serif;
+        margin: 15px;
+        top: 20px;
+        font-size: 18px;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+    .texto h2{
+        font-size: 25px;
+    }
+    .gmap_iframe{
+    border: 0; 
+    scroll-snap-align: 0; 
+    margin: auto; 
+    }
+/** FOOTER */
+#pie h2{
+    font-size: 19px;
+}
+#sec {
+    max-width: 100%;
+    height: 340px;
+    background-color: #ABD774;
+    margin-top: 100px;
+}
+#pie {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -60px;
+    width: 730px;
+    height: 320px;
+    background-color: #fff;
+    border-radius: 15px;
+    filter: drop-shadow(5px 10px 15px rgba(6, 34, 41, 0.849));
+}
+.redes img{
+    width: 40px;
+    height: 40px;
+}
+.container .text img {
+    position: relative;
+    margin-left: 250px;
+    border-radius: 20px;
+    
+}
+
+@media screen and (max-width: 763px) {
+    #sec {
+        max-width: 100%;
+    }
+    #pie {
+        position: relative;
+        width: 680px;
+        height: 320px;
+    }
+    .datos {
+        position: relative;
+        top: -60px;
+        margin-left: 25px;
+        font-family: 'Poppins', sans-serif;
+    }
+    #pie .datos h1 {
+        font-size: 25px;
+    }
+    #pie .datos p {
+        font-size: 15px;
+    
+    }
+    .redes img{
+        width: 20px;
+        height: 20px;
+    }
+    .foo_img {
+        position: relative;
+        margin-left: 90%;
+        top: 20px;
+        width: 70px;
+        height: 70px;
+    }
+    .redes  {
+        position: relative;
+        display: flex;
+        justify-content: end;
+        top: -50px;
+        margin: 20px;
+    }
+    .redes a {
+        position: relative;
+        top: -35px;
+    }
+
+  
+  }
+
+@media screen and (max-width: 700px) {
+    #sec {
+        max-width: 100%;
+    }
+    #pie {
+        position: relative;
+        width: 580px;
+        height: 320px;
+    }
+    .foo_img {
+        position: relative;
+        margin-left: 90%;
+        top: 20px;
+        width: 70px;
+        height: 70px;
+    }
+    .datos {
+        position: relative;
+        top: -60px;
+        margin-left: 25px;
+        font-family: 'Poppins', sans-serif;
+    }
+    #pie .datos h1 {
+        font-size: 20px;
+    }
+    #pie .datos p {
+        font-size: 15px;
+    
+    }
+    .redes img{
+        width: 20px;
+        height: 20px;
+    }
+    .redes  {
+        position: relative;
+        display: flex;
+        justify-content: end;
+        top: -50px;
+        margin: 20px;
+        
+    }
+    .redes a {
+        position: relative;
+        top: -40px;
+        left: -5%;
+    }
+     #pie img {
+        position: relative;
+        margin-left: 85%;
+        top: 20px;
+
+    }
+
+  
+  }
+  @media screen and (max-width: 620px) {
+    #sec {
+        max-width: 100%;
+    }
+    #pie {
+        position: relative;
+        width: 480px;
+        height: 320px;
+    }
+    .foo_img {
+        position: relative;
+        margin-left: 90%;
+        top: 20px;
+        width: 70px;
+        height: 70px;
+    }
+    .datos {
+        position: relative;
+        top: -60px;
+        margin-left: 25px;
+        font-family: 'Poppins', sans-serif;
+    }
+    #pie .datos h1 {
+        font-size: 20px;
+    }
+    #pie .datos p {
+        font-size: 15px;
+    
+    }
+    .redes img{
+        width: 20px;
+        height: 20px;
+    }
+    .redes  {
+        position: relative;
+        display: flex;
+        justify-content: end;
+        top: -50px;
+        margin: 20px;
+        
+    }
+    .redes a {
+        position: relative;
+        top: -60px;
+        left: -5%;
+    }
+     #pie img {
+        position: relative;
+        margin-left: 80%;
+        top: 20px;
+
+    }
+
+  
+  }
+  @media screen and (max-width: 500px) {
+    #sec {
+        max-width: 100%;
+    }
+    #pie {
+        position: relative;
+        width: 380px;
+        height: 320px;
+    }
+    .foo_img {
+        position: relative;
+        margin-left: 90%;
+        top: 20px;
+        width: 70px;
+        height: 70px;
+    }
+    .datos {
+        position: relative;
+        top: -60px;
+        margin-left: 25px;
+        font-family: 'Poppins', sans-serif;
+    }
+    #pie .datos h1 {
+        font-size: 10px;
+    }
+    #pie .datos p {
+        font-size: 13px;
+    
+    }
+    .redes img{
+        width: 20px;
+        height: 20px;
+    }
+    .redes  {
+        position: relative;
+        display: flex;
+        justify-content: end;
+        top: -50px;
+        margin: 20px;
+        
+        
+    }
+    .redes a {
+        position: relative;
+        top: -50px;
+        left: -1%;
+    }
+     #pie img {
+        position: relative;
+        margin-left: 7%;
+        top: 80%;
+        width: 50px;
+        height: 50px;
+
+
+    }
+
+  
+  }
+  @media screen and (max-width: 424px) {
+    #sec {
+        max-width: 100%;
+    }
+    #pie {
+        position: relative;
+        width: 380px;
+        height: 320px;
+    }
+    .foo_img {
+        position: relative;
+        margin-left: 90%;
+        top: 20px;
+        width: 70px;
+        height: 70px;
+    }
+    .datos {
+        position: relative;
+        top: -60px;
+        margin-left: 25px;
+        font-family: 'Poppins', sans-serif;
+    }
+    #pie .datos h1 {
+        font-size: 14px;
+    }
+    #pie .datos p {
+        font-size: 13px;
+    
+    }
+    .redes img{
+        width: 20px;
+        height: 20px;
+    }
+    .redes  {
+        position: relative;
+        display: flex;
+        justify-content: end;
+        top: -50px;
+        margin: 20px;
+        
+    }
+    .redes a {
+        position: relative;
+        top: -30px;
+        left: -1%;
+    }
+     #pie img {
+        position: relative;
+        margin-left: 7%;
+        top: 75%;
+
+
+    }
+
+  
+  }
+
+
+
+
+.foo_img {
+    position: relative;
+    margin-left: 90%;
+    top: 20px;
+    width: 70px;
+    height: 70px;
+}
+.datos {
+    position: relative;
+    top: -60px;
+    margin-left: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.datos h1 {
+    font-size: 28px;
+}
+.datos p {
+    font-size: 15px;
+
+}
+.redes {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    top: -50px;
+    margin: 20px;
+
+}
+/**cards*/
+.card{
+    color: black;
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px  rgba(0, 0, 0, .2);
+    cursor: default;
+    transition: all 400ms ease;
+    margin: auto;
+    display: block;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .4);
+    transform: translateY(-3%);
+}
+.card-body{
+    text-align: center;
+    font-size: 15px;
+}
+.card-body h2{
+    font-weight: bold;
+}
+.texto-target{
+    font-size: 15px;
+}
+.card-body a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 60px;
+    color: rgba(0, 206, 209);
+    border: 1px solid;
+    transition: all 400ms ease;
+}
+.card-body a:hover{
+    background-color: rgba(0, 206, 209);
+    color: #fff;
+}
+/*carrusel*/
+.contennedor{
+    max-width: 100%;
+    height: 480px;
+}
+.position{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    max-width: 100%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px solid rgb(0, 0, 0, 0.5);
+}
+.slider{
+    background-image: url(/img/apicul1.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 70%;
+    width: 80%;
+    border-radius: 15px;
+    animation: animate 10s infinite;
+}
+@keyframes animate{
+    20%{
+        background-image: url(/img/vaca2.jpg);
+        background-size: cover;
+        align-items: center;
+        background-position: center center;
+    }
+    40%{
+        background-image: url(/img/cabras-1.jpg);
+        background-size: cover;
+        align-items: center;
+        background-position: center center;
+    }
+    60%{
+        background-image: url(/img/biotecnologia.jpg);
+        background-size: cover;
+        align-items: center;
+        background-position: center center;
+    }
+    80%{
+        background-image: url(/img/Conejos-1.jpg);
+        background-size: cover;
+        align-items: center;
+        background-position: center center;
+    }
+    100%{
+        background-image: url(/img/CBAGRO2022_page-0001.png);
+        background-size: cover;
+        align-items: center;
+        background-position: center center;
+    }
+
+} 
+
+@media  (max-width: 500px) {
+    .contennedor{
+        max-width: 100%;
+        height: 600px;
+    }
+    .position{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        max-width: 90%;
+        transform: translate(-50%, -50%);
+        box-shadow: 1px solid rgb(0, 0, 0, 0.5);
+    }
+    .slider{
+        background-image: url(/img/apicul1.jpg);
+        background-size: cover;
+        height: 70%;
+        width: 100%;
+        border-radius: 15px;
+        animation: animate 10s infinite;
+    }
+    @keyframes animate{
+        20%{
+            background-image: url(/img/vaca2.jpg);
+            background-size: cover;
+        }
+        40%{
+            background-image: url(/img/cabras-1.jpg);
+            background-size: cover;
+        }
+        60%{
+            background-image: url(/img/biotecnologia.jpg);
+            background-size: cover;
+        }
+        80%{
+            background-image: url(/img/Conejos-1.jpg);
+            background-size: cover;
+        }
+        100%{
+            background-image: url(/img/CBAGRO2022_page-0001.png);
+            background-size: cover;
+        }
+    
+    } 
+}
+/*Apicultura*/
+.titulo .color{
+    color: #ABD774;
+}
+@media (min-width: 850px){
+    .apicultura-row-image{
+        background-image: url(/img/apicul1.jpg);
+        background-size: cover;
+        background-position: center center;
+        margin: auto;
+        display: block;
+        height: 500px;
+        max-width: 88%; 
+        transition: all 0.25s;
+        border-radius: 10px;
+    }
+    .apicultura-row-image:hover{
+    box-shadow: 0 12px 16px rgba(0, 0, 0, .5);
+    }
+}
+#apicultura {
+	background: #f2f7f7;
+	padding: 90px 0;
+    box-shadow: 2px solid rgba(0, 0, 0, .4);
+}
+
+#apicultura h2 {
+	padding-bottom: 50px;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bold;
+}
+.apicultura-row-image img{
+    min-width: 600;
+
+}
+.contenedor{
+    max-width: 100%;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.contenedor .card{
+    width: 330px;
+    height: 450px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .4);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+.container .card:hover{
+    box-shadow: 0 12px 16px rgba(0, 0, 0, .3);
+}
+.container .card img{
+    width: 330px;
+    height: 220px;
+}
+.container .card h4{
+    font-weight: 600;
+}
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+/*Biotecnologia*/
+@media screen and (max-width: 680px) {
+    .cards-contenedor{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .cardds {
+        position: relative;
+        width: 300px;
+        height: 350px;
+        margin: 20px;
+    }
+    
+    .cardds .face {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: .5s;
+    }
+    
+    .cardds .front {
+        transform: perspective(600px) rotateY(0deg);
+        box-shadow: 0 5px 10px #000;
+    }
+    
+    .cardds .front img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .cardds .front h3 {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+        color: #fff;
+        background: rgba(0,0,0,.4);
+        text-align: center;
+    }
+    
+    .cardds .back {
+        transform: perspective(600px) rotateY(180deg);
+        background: rgb(3, 35, 54);
+        padding: 15px;
+        color: #f3f3f3;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        box-shadow: 0 5px 10px #000;
+    }
+    
+    .cardds .back .link {
+        border-top: solid 1px #f3f3f3;
+        height: 50px;
+        line-height: 50px;
+    }
+    
+    .cardds .back .link a {
+        color: #f3f3f3;
+    }
+    
+    .cardds .back h3 {
+        font-size: 30px;
+        margin-top: 20px;
+        letter-spacing: 2px;
+    }
+    
+    .cardds .back p {
+        letter-spacing: 1px;
+    } 
+    
+    .cardds:hover .front {
+        transform: perspective(600px) rotateY(180deg);
+    }
+    
+    .cardds:hover .back {
+        transform: perspective(600px) rotateY(360deg);
+    }
+}
+.texto-bio{
+    font-size: 15px;
+}
+.contenedor-cards{
+    display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+}
+.cards {
+    position: relative;
+    width: 300px;
+    height: 400px;
+}
+
+.cards .card_landing {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 10px #000;
+    background: linear-gradient(transparent 80%, #000), var(--i);
+    background-position: center;
+    background-size: cover;
+    z-index: 100;
+}
+
+.cards .card_landing h6 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.cards .card_info {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    padding: 15px;
+    background: #fff;
+    z-index: 90;
+    box-shadow: 0 5px 10px #000;
+    transition: .5s;
+}
+
+.cards:hover .card_info {
+    left: 100%;
+}
+
+.card_info .head {
+    padding: 5px 0;
+    border-bottom: solid 1px #bc8811;
+}
+
+.card_info .head .title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #bc8811;
+}
+
+.card_info .head .description {
+    display: flex;
+    gap: 10px;
+}
+
+.card_info .head .description .item {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.card_info .head .description .item i {
+    color: #bc8811;
+    font-size: 15px;
+}
+.card_info .content {
+    margin-top: 15px;
+}
+
+.card_info .content .list p {
+    font-size: 13px;
+}
+
+
+
+/*SEgunda Card*/
+.cards-contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.cardds {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+}
+
+.cardds .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.cardds .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.cardds .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cardds .front h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    text-align: center;
+}
+
+.cardds .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: #ABD774;
+    padding: 15px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+
+.cardds .back .link {
+    border-top: solid 1px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+}
+
+.cardds .back .link a {
+    color: #f3f3f3;
+}
+
+.cardds .back p {
+    font-size: 15px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+.cardds .back p {
+    letter-spacing: 1px;
+} 
+
+.cardds:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.cardds:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
+.subtitulo{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*Galeria de Imaganes*/
+.galeria{
+    font-family: 'open sans';
+}
+
+.galeria h1{
+    text-align: center;
+    margin:20px 0 15px 0;
+    font-weight: 300;
+}
+
+.linea{
+    border-top: 5px solid #ABD774;
+    margin-bottom: 40px;
+}
+
+.contenedor-imagenes{
+    display:flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius:3px;
+}
+
+.contenedor-imagenes .imagen{
+    width: 32%;
+    position: relative;
+    height:250px;
+    margin-bottom:5px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75)
+}
+.imagen img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ABD774;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s ease;
+}
+
+.overlay h2{
+    color: #fff;
+    font-weight: 300;
+    font-size:30px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.imagen:hover .overlay{
+    height:100%;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1000px){
+    .contenedor-imagenes{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .contenedor-imagenes{
+        width: 90%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:450px){
+    h1{
+        font-size:22px;
+    }
+    .contenedor-imagenes{
+        width: 98%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 80%;
+    }
+}
